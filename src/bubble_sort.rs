@@ -1,3 +1,4 @@
+// Bubble Sort
 pub fn bubble_sort(vec: &mut Vec<i32>) {
     let n = vec.len();
     for _i in 0..n {
