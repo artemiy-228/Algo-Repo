@@ -15,7 +15,7 @@ fn main() {
     }
     println!("{:?}", v1);
 
-    bubble_sort(&mut v1);
+    let sorted_v1 = merge_sort(&mut v1);
 
-    println!("{:?}", v1);
+    println!("{:?}", sorted_v1);
 }
