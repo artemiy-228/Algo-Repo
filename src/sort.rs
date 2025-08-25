@@ -9,3 +9,11 @@ pub fn bubble_sort(vec: &mut Vec<i32>) {
         }
     }
 }
+
+// Merge Sort
+pub fn merge_sort(vec: &mut Vec<i32>) {}
+
+// Counting Sort
+pub fn counting_sort(vec: &Vec<i32>) -> Vec<i32> {
+    Vec::new()
+}

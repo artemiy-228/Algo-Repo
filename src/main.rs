@@ -1,8 +1,8 @@
 use rand::Rng;
 
-mod bubble_sort;
+mod sort;
 
-use crate::bubble_sort::*;
+use crate::sort::*;
 
 fn main() {
     let mut v1: Vec<i32> = Vec::new();
